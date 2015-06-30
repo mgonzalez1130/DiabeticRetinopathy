@@ -1,0 +1,18 @@
+What was accomplished:
+-Decided to go all in with AWS
+-Wrote all the necessary code to interface with S3. Now capable of retrieving an image from S3, processing it on whatever box is running the code, and then uploading the output to S3.
+-Began uploading the images to S3 (very slow process)
+-By the time of the meeting, had finished uploading 50% of the train images and processing 30% of them
+-Only thing left to do is to finish image processing and then run the ML algorithms
+
+Problems:
+-Uploading the images is taking much too long
+
+Next steps:
+-Experiment with multiple threads and multiple processes to do more image processing in less time/with less AWS resources
+-Processes are bound by OS/JVM, maps an execution -> single process
+-Threads are bound by JVM/OS, maps multiple threads -> single process
+-If using threads, can either manage threads manually, or use a thread pool
+-Do some back of the envelope calculations to try and figure out how much my computer can handle
+-Consider using a Logger to have a better understanding of what is happening/where things go wrong
+-Improve code to pristine condition before presentation next week

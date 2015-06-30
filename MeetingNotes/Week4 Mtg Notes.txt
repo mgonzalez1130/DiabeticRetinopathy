@@ -1,0 +1,14 @@
+What was accomplished:
+-Finished putting together all the parts so that everything can run smoothly from image processing to producing the file that will be submitted to the competition.
+-Set up Vagrant so that it will automatically start an EC2 instance on AWS.
+
+Notes from meeting:
+Talked mostly about how to scale up the image processing. 
+Focus: AWS
+Other options discussed: CCIS, multiple threads on personal computer
+
+AWS notes:
+Goal: Get images from S3 -> Process images -> Put output in S3
+-Make sure to put any output generated back into S3. Do not leave any state on whatever box is used to process the images
+-Split the data into smaller batches
+-Consider using scripts to automate the process of setting up EC2, S3, and running the image processing

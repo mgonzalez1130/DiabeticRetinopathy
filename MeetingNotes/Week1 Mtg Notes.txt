@@ -1,0 +1,15 @@
+See project outline file for description of project
+
+Milestones:
+March 31st: Image Processing
+April 7th: Create datasets, train/test model on a small subest of data
+April 14th: Integrate hadoop/AWS, train/test model on medium subset of data
+April 21st: Optimize ML algorithm
+April 28th: Optimize Image processing, train/test on all data
+
+
+Tools:
+ImageJ http://imagej.nih.gov/ij/
+FeatureJ: http://www.imagescience.org/meijering/software/featurej/
+Weka: http://www.cs.waikato.ac.nz/ml/weka/
+DistributedWekaHadoop: http://weka.sourceforge.net/packageMetaData/distributedWekaHadoop/index.html

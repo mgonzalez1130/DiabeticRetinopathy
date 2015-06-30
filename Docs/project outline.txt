@@ -1,0 +1,27 @@
+Goal: Design program capable of analyzing images of eyes and assign a value between 0-4 depending on the severity of a disease.
+
+Competition: https://www.kaggle.com/c/diabetic-retinopathy-detection
+
+Project outline:
+
+Step 1: Image Processing
+Images -> Image Processing -> Data file (.csv)
+Input: A set of images (and there labels)
+Output: A csv file where each row represents the numerical feature vector obtained from processing an image. The last column is the label associated with that image.
+Tools: ImageJ, FeatureJ (an ImageJ plugin)
+
+Step 2: Train the machine learning model
+Data file(.csv)-> Machine Learning Algorithm -> .model file
+Input: A set of txt files 
+Output: A file containing all the relevant information for the model trained using the ML algorithm, which will be used to predict labels for test images. A .model file can be generated using Weka.
+Tools: Weka
+
+Step 3: Test the machine learning model
+.model File and Test Images -> CSV file of labels, print out of model stats
+Input: A set of test images and the .model file generated in the previous step
+Output: A CSV file containing the lables for all of the test images, as well as a print out of a set of statistics for the model describing the accuracy.
+
+Step 4: Integrate hadoop and start using AWS
+Tools: DistributedWekaHadoop
+
+Step 5: Optimize (machine learning algorithms and image processing)

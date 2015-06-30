@@ -1,0 +1,18 @@
+Next steps:
+
+1. Have program spit out the file needed for the competition (a .csv file where each line corresponds to a single test image. Each row has two columns, image_id and calculated_label)
+
+2. Need to process the train and test images. Options:
+-CCS servers
+-Cloud (trying this option first)
+-Multiple threads on local machine
+
+3. Virtualization options:
+-docker
+-vagrant (trying this option first)
+
+4. Start optimizing ML algorithm portion
+-train multiple classifiers
+-voting scheme
+-correlations between data and algorithms? 
+

@@ -1,0 +1,10 @@
+Highlights:
+-Focus on getting inputs/outputs to work as expected, then move on to customizing/improving
+-Be careful about storage, move files to the cloud if possible (S3, dropbox, goold drive...)
+-Post questions to Weka mailing list (https://weka.wikispaces.com/Weka+Mailing+List)
+
+Maven links for tools:
+ImageJ: http://imagej.net/Architecture#Maven_repositories
+FeatureJ: N/A
+Weka: http://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-dev
+DistributedWekaHadoop: N/A
